@@ -1,0 +1,31 @@
+Explicacion de los 2 archivos de codigo
+
+1) index.html: es el archivo de estructura.
+- La parte inicial con <!DOCTYPE html> y <html lang="es"> indica que es una pagina HTML y que el idioma es español.
+- En <head> se pone la configuracion basica: el tipo de caracteres, la vista para celular, el titulo de la pagina y la conexion con el archivo CSS.
+- En <body> empieza todo lo que se ve en la pagina.
+- En <header class="hero"> se coloca la bienvenida: el nombre del negocio, el slogan y el boton de WhatsApp.
+- En <section class="productos"> se crea la seccion de productos con tres tarjetas: Papas, Malangas y Platanitos.
+- Cada tarjeta tiene un titulo, una descripcion y un precio.
+- En <footer class="pie"> se coloca el cierre de la pagina con el texto final.
+
+2) style.css: es el archivo de estilo.
+- El selector * limpia los margenes y espaciados que vienen por defecto en el navegador.
+- El selector body define la fuente general, el color de fondo y el color del texto.
+- La clase .hero da estilo a la parte superior: centrado, padding, fondo degradado y texto blanco.
+- .hero h1 cambia el tamaño del titulo principal.
+- .slogan ajusta el texto del lema.
+- .boton-whatsapp diseña el boton de WhatsApp con fondo verde, texto blanco, bordes redondeados y sombra.
+- .boton-whatsapp:hover cambia la apariencia cuando el mouse pasa sobre el boton.
+- .productos pone espacio y centra el texto de la seccion.
+- .lista-productos usa flexbox para acomodar las tarjetas horizontalmente y centrarlas.
+- .producto diseña cada tarjeta de producto con fondo blanco, sombra y esquinas redondeadas.
+- .caja-imagen reserva el espacio donde ira la imagen del producto.
+- .producto h3, .producto p y .precio cambian el estilo de texto y el color del precio.
+- .pie define el pie de pagina con fondo naranja y texto blanco.
+
+En resumen:
+- index.html = estructura y contenido.
+- style.css = diseño y apariencia.
+
+Cada parte del codigo tiene una funcion clara: HTML organiza la informacion y CSS la hace bonita y legible.
